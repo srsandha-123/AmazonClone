@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .border{
+        border: 1px solid transparent;
+    }
+    .border:hover{
+        border: 1px solid whitesmoke;
+        background-color: rgba(230, 233, 224, 0.166);
+    }
+    header{
+        position: fixed;
+        top: 0;
+        width: 100%
+    
+    }
+    .navbar{
+        height: 60px;
+        background-color:#131921;
+        color:white;
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    }
+    .nav-logo{
+        height: 50px;
+        width: 100px;
+    }
+    .logo{
+        background-image: url('Amazon-Logo-White.png');
+        background-size: cover;
+        height: 50px;
+        width: 100%;
+    }
+    .nav-first{
+        padding: 5px;
+    }
+    .nav-second{
+        display: flex;
+        align-items: center;
+    }
+    .address1{
+        color: #cccccc;
+        font-size: 0.85rem;
+        margin-left: 15px;
+    }
+    .address2{
+        font-size: 1rem;
+        margin-left: 3px;
+    
+    }
+    .nav-search{
+        display: flex;
+        justify-content:flex-start;
+        background-color: aqua;
+        width: 620px;
+        height: 40px;
+        border-radius: 4px;
+    }
+    .nav-search:hover{
+        border: 2px solid orange;
+    }
+    .search-select{
+        background-color: #f3f3f3;
+        width: 50px;
+        border-radius: 4px 0 0 4px;
+        text-align: center;
+        border: none;
+    
+    }
+    .search-input{
+        width: 85%;
+        font-size: 1rem;
+        border: none;
+    }
+    .search-icon{
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(252, 180, 92);
+        border: none;
+        border-radius:  0 4px 4px 0;
+        font-size: 1.2rem;
+        color:#131921
+    }
+    .nav-acc{
+        padding: 5px;
+    }
+    .nav-signin{
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-left: 4px;
+        
+    }
+    .Acc{
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #131921;
+        color:white;
+        border: none;
+    
+    }
+    .nav-return{
+        padding:5px;
+    }
+    .nav-cart{
+        padding: 5px;
+    }
+    .nav-cart i{
+        font-size: 1.7rem;
+    }
+    .panel{
+        height: 40px;
+        background-color: #232f3e;
+        color: white;
+        display: flex;
+    
+    }
+    .panel-all{
+        width: 4%;
+        height: 39px;
+        display:flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .panel-items{
+        width: 80%;
+        height: 39px;
+        display: flex;
+        justify-content:baseline;
+        
+    }
+    .items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .panel-deals{
+        width:17%;
+        border: none;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        background-color: rgb(252, 180, 92);
+        color: white;
+        font-weight: 550;
+    }
+    .panel-deals:hover{
+        border: 2px solid rgb(230, 147, 58);
+    }

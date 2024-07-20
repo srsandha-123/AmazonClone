@@ -1,0 +1,54 @@
+.hero{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    bottom: 40px;
+    margin-top: 50px ;
+
+}
+.hero-message{
+    height:40px;
+    width: 90%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.hero-message a{
+    text-decoration: none;
+    color: #647d9c;
+}
+/* shoping area */
+.shop-content{
+    background-color: rgb(241, 202, 172);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    /* border: 2px solid black ; */
+    background-color: white;
+    padding:20px 0 15px;
+    margin: 10px;
+    
+}
+.box p{
+    color: rgb(74, 74, 249);
+    cursor: pointer;
+}
+.box-img{
+    height: 304px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-content{
+    margin: 1rem;
+}
